@@ -1,14 +1,15 @@
-# Python 调用 Ollama：流式输出
+# 20260916
+## Python 调用 Ollama：流式输出
 
 日期：2026-09-16  
 项目：ollama-python  
 文件：chat_stream.py
 
-## 目标
+### 目标
 
 让模型回答像打字一样逐字显示，而不是等整段生成完再一次性打印。这样等待感更低，也是聊天机器人的标准做法。
 
-## 代码
+### 代码
 
 ```python
 import ollama
